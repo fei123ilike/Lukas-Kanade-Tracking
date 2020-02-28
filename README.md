@@ -8,6 +8,7 @@ Please download the data from [here](https://drive.google.com/open?id=11W2dOSgI1
 The "vanilla" algorithm for tracking with single template from the first frame. Reference paper [Lucas-Kanade 20 Years On: A Unifying Framework](https://www.ri.cmu.edu/pub_files/pub3/baker_simon_2002_3/baker_simon_2002_3.pdf)  
 
 **Example**
+
 <img src="https://github.com/fei123ilike/Lukas-Kanade-Tracking/blob/master/results/car1.png" width=30% height=30%><img src="https://github.com/fei123ilike/Lukas-Kanade-Tracking/blob/master/results/car100.png" width=30% height=30%><img src="https://github.com/fei123ilike/Lukas-Kanade-Tracking/blob/master/results/car300.png" width=30% height=30%>
 
 **Run**
@@ -18,6 +19,7 @@ python ./code/testCarSequence.py
 To address the bbox drifting issue, reset the reference frame every 100 frames.Reference paper [The Template Update Problem](https://www.ri.cmu.edu/publications/the-template-update-problem/)  
 
 **Example**
+
 <img src="https://github.com/fei123ilike/Lukas-Kanade-Tracking/blob/master/results/car_correct1.png" width=30% height=30%><img src="https://github.com/fei123ilike/Lukas-Kanade-Tracking/blob/master/results/car_correct100.png" width=30% height=30%><img src="https://github.com/fei123ilike/Lukas-Kanade-Tracking/blob/master/results/car_correct300.png" width=30% height=30%>
 
 **Run**
@@ -30,6 +32,7 @@ The prior mehod may suffer from drastic appearance change like rotation or defor
 Red bbox: w/o basis.   Green bbox: w/ basis.
 
 **Example**
+
 <img src="https://github.com/fei123ilike/Lukas-Kanade-Tracking/blob/master/results/toy1.png" width=30% height=30%><img src="https://github.com/fei123ilike/Lukas-Kanade-Tracking/blob/master/results/toy200.png" width=30% height=30%><img src="https://github.com/fei123ilike/Lukas-Kanade-Tracking/blob/master/results/toy300.png" width=30% height=30%>
 
 **Run**
@@ -40,6 +43,7 @@ python ./code/testSylvSequence.py
 ## Lucas Kanade Tracking with dominant affine motion  
 
 **Example**
+
 <img src="https://github.com/fei123ilike/Lukas-Kanade-Tracking/blob/master/results/inverse30.png" width=30% height=30%><img src="https://github.com/fei123ilike/Lukas-Kanade-Tracking/blob/master/results/inverse60.png" width=30% height=30%><img src="https://github.com/fei123ilike/Lukas-Kanade-Tracking/blob/master/results/inverse90.png" width=30% height=30%>
 
 **Run**
